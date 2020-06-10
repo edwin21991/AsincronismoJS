@@ -16,7 +16,7 @@ function fetchData(url_api,callback){
             }
         }
     }
-    xhttp.send
+    xhttp.send()
 }
 fetchData(API, function (error1, data1){
     if(error1) return console.error(error1)
